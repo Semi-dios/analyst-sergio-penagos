@@ -1,5 +1,7 @@
 <template>
-  <h1>{{ $t("content.name") }}</h1>
+  <h1 class="text-red-600 font-mono text-3xl font-bold">
+    {{ $t("content.name") }}
+  </h1>
 </template>
 
 <script>
