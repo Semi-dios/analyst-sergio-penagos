@@ -1,9 +1,10 @@
 <template>
-  <h1>Portofilo</h1>
+  <h1>{{ $t("content.name") }}</h1>
 </template>
 
 <script>
-export default {
+import { defineComponent } from "vue";
+export default defineComponent({
   name: "App",
-};
+});
 </script>

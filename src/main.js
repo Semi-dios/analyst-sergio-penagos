@@ -1,4 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import i18n from "./i18n";
-createApp({ i18n, App, render: (h) => h(App) }).mount("#personalwbesite");
+import { i18n } from "./i18n";
+const app = createApp(App);
+
+app.use(i18n);
+app.mount("#personalwbesite");
