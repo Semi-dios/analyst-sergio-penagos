@@ -5,8 +5,8 @@ export const i18n = createI18n({
   allowComposition: true,
   messages: {
     es,
-    ja: {
-      hello: "こんにちは！",
+    en: {
+      hello: "hello",
     },
   },
 });
