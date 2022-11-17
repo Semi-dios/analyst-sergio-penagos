@@ -36,17 +36,8 @@ export default defineComponent({
     Background,
     Mesh,
   },
-  computed: {
-    ...mapState(["backgroundDark"]),
-    toggleBackgroundDark: {
-      get() {
-        return this.backgroundDark;
-      },
-      set(value) {
-        this.SET_BACKGROUND(value);
-      },
-    },
-  },
+  computed: mapState(["backgroundDark"]),
+
   data() {
     return {
       dark: false,

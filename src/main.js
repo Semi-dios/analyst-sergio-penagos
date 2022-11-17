@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import { i18n } from "./i18n";
 import { TroisJSVuePlugin } from "troisjs";
-import store from "./store/index";
+import store from "./store/index.js";
 require("@/styles/custom.scss");
 const app = createApp(App);
 
