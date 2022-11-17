@@ -1,9 +1,9 @@
 {
   "content": {
-    "name": "ejemplo"
+    "name": "example"
   },
   "loading" : {
-    "title": "Cargando…",
+    "title": "Loading…",
     "subtitle": "Estamos procesando tu requerimiento",
     "description": "Por favor, no cierres esta ventana."
   },

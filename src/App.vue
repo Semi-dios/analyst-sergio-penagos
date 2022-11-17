@@ -16,6 +16,17 @@
             </span>
           </button>
         </p>
+        <p class="buttons">
+          <button
+            class="button is-small"
+            type="button"
+            v-on:click="changeLanguage"
+          >
+            <span class="icon is-small">
+              <ion-icon name="language-outline"></ion-icon>
+            </span>
+          </button>
+        </p>
       </template>
       <template v-slot:main>
         <Mesh />
@@ -41,13 +52,19 @@ export default defineComponent({
   data() {
     return {
       dark: false,
+      languageEnglish: true,
     };
   },
   methods: {
-    ...mapMutations(["SET_BACKGROUND"]),
+    ...mapMutations(["SET_BACKGROUND", "SET_LANGUAGE"]),
     changeBackground() {
       this.dark = !this.dark;
       this.SET_BACKGROUND(this.dark);
+    },
+    changeLanguage() {
+      this.languageEnglish = !this.languageEnglish;
+      this.SET_LANGUAGE(this.languageEnglish);
+      this.$i18n.locale = this.languageEnglish ? "en" : "es";
     },
   },
 });
