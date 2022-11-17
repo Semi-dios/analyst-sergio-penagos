@@ -11,6 +11,7 @@
     "bulma": "^0.9.4",
     "chroma-js": "^2.4.2",
     "core-js": "^3.8.3",
+    "stylelint-config-recommended-vue": "^1.4.0",
     "three": "^0.134.0",
     "troisjs": "^0.3.4",
     "vee-validate": "^2.2.15",
@@ -32,7 +33,8 @@
     "node-sass": "^8.0.0",
     "postcss": "^8.4.19",
     "prettier": "^2.4.1",
-    "sass-loader": "^13.2.0"
+    "sass-loader": "^13.2.0",
+    "stylelint-config-recommended-scss": "^8.0.0"
   },
   "bugs": "https://github.com/Semi-dios/personal-website/issues",
   "contributors": [
