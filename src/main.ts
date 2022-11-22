@@ -1,5 +1,11 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import store from "./store";
+import { i18n } from "./i18n";
+import { TroisJSVuePlugin } from "troisjs";
+const app = createApp(App);
 
-createApp(App).use(store).mount("#app");
+app.use(i18n);
+app.use(store);
+app.use(TroisJSVuePlugin);
+app.mount("#personalwbesite");

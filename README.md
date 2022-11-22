@@ -1,29 +1,80 @@
-# portfolio
+<a name="readme-top"></a>
 
-## Project setup
-```
-npm install
+# Professional Portfolio
+
+> Front-end Professional Portfolio project.
+
+## Built With
+
+- Html
+- Css
+- Bulma
+- JavaScript
+- Vue 3
+- TypeScript
+
+## Live Demo (if available)
+
+[Live Demo Link](#)
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+--Node v17.9.0
+--Npm v8.5.1
+--Composer v2.0.8
+--Text editor (VsCode)
+
+### Install
+
+1. Clone the repo
+   ```sh
+   git clone git@github.com:Semi-dios/personal-website.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+   ```sh
+   yarn install
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Usage
+
+1.Run project
+
+```sh
+ npm run serve
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Authors
 
-### Compiles and minifies for production
-```
-npm run build
-```
+👤 **Author1**
 
-### Run your unit tests
-```
-npm run test:unit
-```
+- GitHub: [@Semi-dios](https://github.com/Semi-dios)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/analyst-sergio-penagos/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 🤝 Contributing
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Semi-dios/personal-website/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.

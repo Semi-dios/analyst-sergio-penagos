@@ -1,0 +1,22 @@
+{
+  "content": {
+    "name": "example"
+  },
+  "loading" : {
+    "title": "Loading…",
+    "subtitle": "Estamos procesando tu requerimiento",
+    "description": "Por favor, no cierres esta ventana."
+  },
+  "error" : {
+  "title": "Error",
+  "description": "Parece que perdimos conexión con el servidor."
+  },
+  "empty": {
+    "title": "Sin resultados",
+    "subtitle": "No hemos podido encontrar lo que buscas..",
+    "description": "Intentalo nuevamente.",
+    "default_image": "https://d1gxbqkybgjpxv.cloudfront.net/uploads/e2e9f446-5f86-4dbd-96d3-59d6c1b614fd/original/error.svg",
+    "default_image_alt": "error_default_image_alt"
+  }
+   
+}
