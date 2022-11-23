@@ -65,9 +65,5 @@ export default defineComponent({
 .container-canvas {
   width: 450px;
   height: 450px;
-  canvas {
-    width: inherit;
-    height: inherit;
-  }
 }
 </style>
