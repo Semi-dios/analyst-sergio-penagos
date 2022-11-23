@@ -1,7 +1,7 @@
 export type State = {
-  data: [] | null;
+  backgroundDark: boolean;
 };
 
 export const state: State = {
-  data: null,
+  backgroundDark: false,
 };
