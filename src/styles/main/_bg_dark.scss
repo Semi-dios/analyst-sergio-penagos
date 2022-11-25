@@ -1,4 +1,105 @@
-body, .bg-dark{
-    background-color: $body-background-color;
-    color: $body-color;
+body,
+.bg-dark {
+  /* Global Styles */
+
+  background-color: $body-background-color;
+  color: $body-color;
+  height: 100vh;
+
+  @for $i from 1 through 6 {
+    h#{$i} {
+      color: $body-color;
+    }
+  }
+
+  /* End global Styles */
+
+  /* Styles global carousel */
+
+  &__carousel {
+    &-social-media {
+      position: absolute;
+      color: inherit;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.8rem;
+
+      &::before {
+        content: "";
+        min-height: 250px;
+        width: 2px;
+        background-color: $body-color;
+      }
+      &::after {
+        content: "";
+        width: 2px;
+        background-color: $body-color;
+        min-height: 365px;
+      }
+
+      a {
+        margin: 0.5rem;
+        color: inherit;
+        &:hover,
+        &:active {
+          color: $primary-50;
+          cursor: pointer;
+        }
+
+        &:first-child {
+          margin-top: 2rem;
+        }
+
+        &:last-child {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+
+    /* Styles global step*/
+
+    &-steps {
+      position: fixed;
+      color: inherit;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 3rem;
+      height: 100vh;
+      &-item {
+        font-size: 0.5rem;
+        position: relative;
+        &:hover,
+        &:active {
+          color: $primary-50;
+          cursor: pointer;
+        }
+
+        /*    &::after {
+          content: "";
+          min-height: 1rem;
+          width: 1px;
+          background-color: $body-color;
+          position: absolute;
+          bottom: -0.5rem;
+        } */
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
+        &.item-seleted {
+          font-size: 1rem;
+          color: $primary-50;
+        }
+      }
+    }
+
+    /* End  global step*/
+  }
+
+  /* End global carousel */
 }
