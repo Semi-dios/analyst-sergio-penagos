@@ -29,7 +29,7 @@
         </p>
       </template>
       <template v-slot:main>
-        <Mesh />
+        <home-step />
       </template>
     </Background>
   </div>
@@ -38,14 +38,14 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
-import Mesh from "./components/Mesh.vue";
+import HomeStep from "./steps/HomeStep.vue";
 import Background from "./components/Background.vue";
 import { mapState, mapMutations } from "vuex";
 export default defineComponent({
   name: "App",
   components: {
     Background,
-    Mesh,
+    HomeStep,
   },
   computed: {
     ...mapState(["backgroundDark"]),

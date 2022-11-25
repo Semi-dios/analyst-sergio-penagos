@@ -1,7 +1,7 @@
 <template>
   <div class="container-canvas">
     <renderer ref="renderer" orbit-ctrl resize="false" :width="450">
-      <camera :position="{ z: 15 }" zoom="false"></camera>
+      <camera :position="{ z: 15 }"></camera>
       <scene background="#000">
         <ambient-light color="#808080"></ambient-light>
         <point-light color="#ffffff" :position="{ y: 50, z: 0 }"></point-light>
@@ -26,13 +26,16 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import chroma from "chroma-js";
-
+import { mapState } from "vuex";
 export default defineComponent({
   data() {
     return {
       maxMesh: 31,
       cscale: chroma.scale(["#000", "#ccc"]),
     };
+  },
+  computed: {
+    ...mapState(["backgroundDark"]),
   },
   mounted() {
     const { renderer } = this.$refs as any;

@@ -1,4 +1,10 @@
 body, .bg-light{
     background-color: $body-lg-background-color;
     color: $body-lg-color;
+
+    @for $i from 1 through 6 {
+        h#{$i}{
+            color: $body-lg-color;
+        }
+    }
 }
