@@ -1,5 +1,5 @@
 <template>
-  <div :class="backgroundDark ? 'bg-dark' : 'bg-light'">     
+  <div :class="backgroundDark ? 'bg-dark' : 'bg-light'">
     <Header></Header>
     <Background>
       <template v-slot:main>
@@ -15,17 +15,16 @@ import { defineComponent } from "vue";
 import HomeStep from "./steps/HomeStep.vue";
 import Background from "./components/Background.vue";
 import { mapState, mapMutations } from "vuex";
-import Header from "./components/Header.vue"
+import Header from "./components/Header.vue";
 export default defineComponent({
   name: "App",
   components: {
     Background,
     HomeStep,
-    Header
+    Header,
   },
   computed: {
     ...mapState(["backgroundDark"]),
   },
-
 });
 </script>
