@@ -12,6 +12,10 @@ body,
     }
   }
 
+  nav {
+    background-color: inherit;
+  }
+
   /* End global Styles */
 
   /* Styles global carousel */
@@ -77,15 +81,6 @@ body,
           color: $primary-50;
           cursor: pointer;
         }
-
-        /*    &::after {
-          content: "";
-          min-height: 1rem;
-          width: 1px;
-          background-color: $body-color;
-          position: absolute;
-          bottom: -0.5rem;
-        } */
         &:last-child {
           &::after {
             display: none;

@@ -1,10 +1,59 @@
-body, .bg-light{
-    background-color: $body-lg-background-color;
-    color: $body-lg-color;
+body,
+.bg-light {
+  /* Global Styles */
 
-    @for $i from 1 through 6 {
-        h#{$i}{
-            color: $body-lg-color;
-        }
+  background-color: $body-lg-background-color;
+  color: $body-lg-color;
+
+  @for $i from 1 through 6 {
+    h#{$i} {
+      color: $body-lg-color;
     }
+  }
+
+  nav {
+    background-color: inherit;
+  }
+
+  /* End global Styles */
+
+  /* Styles global carousel */
+
+  &__carousel {
+    &-social-media {
+      &::before {
+        content: "";
+
+        background-color: $body-lg-color;
+      }
+      &::after {
+        content: "";
+
+        background-color: $body-lg-color;
+      }
+    }
+
+    /* Styles global step*/
+
+    &-steps {
+      &-item {
+        &:hover,
+        &:active {
+          color: $primary-50;
+        }
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
+        &.item-seleted {
+          color: $primary-50;
+        }
+      }
+    }
+
+    /* End  global step*/
+  }
+
+  /* End global carousel */
 }
