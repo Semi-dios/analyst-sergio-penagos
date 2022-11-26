@@ -1,6 +1,7 @@
 {
-  "content": {
-    "name": "example"
+  "home": {
+    "welcome": "Hola soy",
+    "name": "Sergio"
   },
   "loading" : {
     "title": "Loading…",

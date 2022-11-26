@@ -18,35 +18,26 @@
           </span>
         </a>
       </div>
-      <header>
-        <slot name="header"></slot>
-      </header>
       <main>
         <slot name="main"></slot>
       </main>
       <footer>
         <slot name="footer"></slot>
       </footer>
-      <div class="bg-dark__carousel-steps">
-        <span class="icon bg-dark__carousel-steps-item item-seleted">
+      <div class="bg-dark__carousel-steps" >
+        <span class="icon bg-dark__carousel-steps-item " v-for="(index,step) in 4" :key="step"  ref="stepsRef" >
           <ion-icon name="ellipse-sharp"></ion-icon>
-        </span>
-        <span class="icon bg-dark__carousel-steps-item">
-          <ion-icon name="ellipse-sharp"></ion-icon>
-        </span>
-        <span class="icon bg-dark__carousel-steps-item">
-          <ion-icon name="ellipse-sharp"></ion-icon>
-        </span>
-        <span class="icon bg-dark__carousel-steps-item">
-          <ion-icon name="ellipse-sharp"></ion-icon>
-        </span>
+        </span> 
       </div>
     </div>
   </section>
 </template>
 
-<script>
+<script lang="ts">
+
 export default {
   name: "Background",
+
+
 };
 </script>
