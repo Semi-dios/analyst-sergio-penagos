@@ -12,13 +12,52 @@ body,
     }
   }
 
-  nav {
-    background-color: inherit;
+  p {
+    color: inherit;
   }
 
-  /* End global Styles */
+  .text-gradient {
+    background: linear-gradient(
+      to right,
+      $primary-25 15%,
+      $blue 30%,
+      $blue-25 40%,
+      $green-25 60%,
+      $green 80%,
+      $primary-50 90%,
+      $primary-50 1%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
-  /* Styles global carousel */
+  /* End Global Styles */
+
+  /* Styles Navbar */
+
+  &__navbar,
+  nav {
+    background-color: inherit;
+    &-button-icon {
+      border: 0;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0.5rem;
+      &:hover {
+        cursor: pointer;
+      }
+
+      span {
+        color: $body-color;
+        font-size: 1.25rem;
+      }
+    }
+  }
+  /* End Styles Navbar */
+
+  /* Styles Global Carousel */
 
   &__carousel {
     &-social-media {
@@ -40,7 +79,7 @@ body,
         content: "";
         width: 2px;
         background-color: $body-color;
-        min-height: 365px;
+        min-height: 165px;
       }
 
       a {
@@ -72,7 +111,8 @@ body,
       flex-direction: column;
       align-items: center;
       width: 3rem;
-      height: 100vh;
+      margin: 2rem 0.5rem;
+      top: 45%;
       &-item {
         font-size: 0.5rem;
         position: relative;
@@ -96,5 +136,30 @@ body,
     /* End  global step*/
   }
 
-  /* End global carousel */
+  /* End Global Carousel */
+
+  /* Styles Home Screen */
+  .home-screen {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    &__title {
+      vertical-align: bottom;
+    }
+
+    &__button-down {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        &:first-child {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+
+  /* End Home Screen */
 }

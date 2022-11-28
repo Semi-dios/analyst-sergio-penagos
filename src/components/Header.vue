@@ -1,13 +1,13 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav
+    class="navbar bg-dark__navbar"
+    role="navigation"
+    aria-label="main navigation"
+  >
     <div class="navbar-brand">
-      <a class="navbar-item" href="#">
-        <img
-          src="https://bulma.io/images/bulma-logo.png"
-          width="112"
-          height="28"
-        />
-      </a>
+      <p class="title mb-0 is-2 navbar-item">
+        Run<span class="text-gradient"> Dev </span>
+      </p>
 
       <a
         role="button"
@@ -23,25 +23,28 @@
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end">
+      <div class="navbar-end bg-dark__navbar-end">
         <div class="navbar-item">
-          <div class="buttons">
+          <div class="buttons ">
             <button
-              class="button is-small"
+              class="is-small bg-dark__navbar-button-icon"
               type="button"
               v-on:click="changeBackground"
             >
-              <span class="icon is-small">
-                <ion-icon name="sunny-outline"></ion-icon>
+              <span class="icon " v-if="dark">
+                <ion-icon name="sunny-sharp"></ion-icon>
+              </span>
+              <span class="icon " v-else>
+                <ion-icon name="moon-sharp"></ion-icon>
               </span>
             </button>
 
             <button
-              class="button is-small"
+              class="is-small bg-dark__navbar-button-icon"
               type="button"
               v-on:click="changeLanguage"
             >
-              <span class="icon is-small">
+              <span class="icon ">
                 <ion-icon name="language-outline"></ion-icon>
               </span>
             </button>
@@ -64,7 +67,7 @@ export default defineComponent({
   },
   data() {
     return {
-      dark: false,
+      dark: true,
       languageEnglish: true,
     };
   },
