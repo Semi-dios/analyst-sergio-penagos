@@ -5,6 +5,11 @@
     "myself": "Vue / Desarrollador Front-End",
      "button": "Descargar CV"
   },
+  "about" : {
+    "title": "ABOUT ME", 
+    "subtitle": "My personal experience",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempora enim ullam distinctio, recusandae iure nobis non fuga quae labore ad sed dicta quisquam aspernatur nesciunt eligendi hic ab eveniet!."
+  },
   "loading" : {
     "title": "Loading…",
     "subtitle": "Estamos procesando tu requerimiento",

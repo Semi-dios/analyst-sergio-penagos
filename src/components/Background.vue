@@ -2,12 +2,16 @@
   <section class="section">
     <div class="container bg-dark__carousel is-fluid">
       <div class="bg-dark__carousel-social-media">
-        <a href="#" target="_blank" title="linkedin">
+        <a
+          href="https://www.linkedin.com/in/analyst-sergio-penagos"
+          target="_blank"
+          title="linkedin"
+        >
           <span class="icon is-medium">
             <ion-icon name="logo-linkedin"></ion-icon>
           </span>
         </a>
-        <a href="#" target="_blank" title="github">
+        <a href="https://github.com/Semi-dios" target="_blank" title="github">
           <span class="icon is-medium">
             <ion-icon name="logo-github"></ion-icon>
           </span>
