@@ -5,9 +5,12 @@
     aria-label="main navigation"
   >
     <div class="navbar-brand">
-      <p class="is-size-4-mobile is-size-1 mb-0 navbar-item">
+      <a
+        href="https://semi-dios.github.io/personal-website"
+        class="is-size-4-mobile is-size-1 mb-0 navbar-item"
+      >
         Run<span class="text-gradient"> Dev </span>
-      </p>
+      </a>
 
       <a
         role="button"

@@ -4,6 +4,7 @@
     <Background>
       <template v-slot:main>
         <home-step />
+        <about-step />
       </template>
     </Background>
   </div>
@@ -13,6 +14,7 @@
 import { defineComponent } from "vue";
 
 import HomeStep from "./steps/HomeStep.vue";
+import AboutStep from "./steps/AboutStep.vue";
 import Background from "./components/Background.vue";
 import { mapState, mapMutations } from "vuex";
 import Header from "./components/Header.vue";
@@ -22,6 +24,7 @@ export default defineComponent({
     Background,
     HomeStep,
     Header,
+    AboutStep,
   },
   computed: {
     ...mapState(["backgroundDark"]),
