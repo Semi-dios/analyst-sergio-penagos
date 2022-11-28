@@ -60,43 +60,84 @@ body,
   /* Styles Global Carousel */
 
   &__carousel {
-    &-social-media {
-      position: absolute;
-      color: inherit;
-      left: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      font-size: 1.8rem;
-
-      &::before {
-        content: "";
-        min-height: 250px;
-        width: 2px;
-        background-color: $body-color;
-      }
-      &::after {
-        content: "";
-        width: 2px;
-        background-color: $body-color;
-        min-height: 165px;
-      }
-
-      a {
-        margin: 0.5rem;
+    @media screen and (min-width: 320px) {
+      &-social-media {
+        position: absolute;
         color: inherit;
-        &:hover,
-        &:active {
-          color: $primary-50;
-          cursor: pointer;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        left: 0;
+        width: 100%;
+
+        &::before {
+          content: "";
+          width: 60%;
+          height: 2px;
+          background-color: $body-color;
+        }
+        &::after {
+          content: "";
+          height: 2px;
+          width: 60%;
+          background-color: $body-color;
         }
 
-        &:first-child {
-          margin-top: 2rem;
+        a {
+          margin: 0.25rem;
+          color: inherit;
+          display: inline-flex;
+          align-items: center;
+          &:hover,
+          &:active {
+            color: $primary-50;
+            cursor: pointer;
+          }
+
+          &:first-child {
+            margin-left: 1.5rem;
+          }
+
+          &:last-child {
+            margin-right: 1.5rem;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: 765px) {
+      &-social-media {
+        flex-direction: column;
+        font-size: 1.8rem;
+        width: auto;
+        height: 100%;
+
+        &::before {
+          content: "";
+          min-height: 250px;
+          width: 2px;
+          background-color: $body-color;
+        }
+        &::after {
+          content: "";
+          width: 2px;
+          background-color: $body-color;
+          min-height: 165px;
         }
 
-        &:last-child {
-          margin-bottom: 2rem;
+        a {
+          &:first-child {
+            margin-top: 2rem;
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+          }
+
+          &:last-child {
+            margin-bottom: 2rem;
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+          }
         }
       }
     }
@@ -110,7 +151,7 @@ body,
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 3rem;
+      width: 4rem;
       margin: 2rem 0.5rem;
       top: 45%;
       &-item {
@@ -144,22 +185,34 @@ body,
     width: 100%;
     height: 100%;
 
-    &__title {
-      vertical-align: bottom;
-    }
+    @media screen and (min-width: 320px) {
+      &__title {
+        margin-bottom: 9rem;
+        vertical-align: bottom;
+      }
 
-    &__button-down {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      &__button-down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-      span {
-        &:first-child {
-          font-size: 4rem;
+        span {
+          &:first-child {
+            font-size: 4rem;
+          }
         }
+      }
+    }
+    @media screen and (min-width: 765px) {
+      &__title {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
       }
     }
   }
 
   /* End Home Screen */
+
+  /* Styles About Screen */
+  /* End About Screen */
 }

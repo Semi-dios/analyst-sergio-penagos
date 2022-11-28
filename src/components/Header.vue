@@ -5,7 +5,7 @@
     aria-label="main navigation"
   >
     <div class="navbar-brand">
-      <p class="title mb-0 is-2 navbar-item">
+      <p class="is-size-4-mobile is-size-1 mb-0 navbar-item">
         Run<span class="text-gradient"> Dev </span>
       </p>
 
@@ -25,16 +25,16 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end bg-dark__navbar-end">
         <div class="navbar-item">
-          <div class="buttons ">
+          <div class="buttons">
             <button
               class="is-small bg-dark__navbar-button-icon"
               type="button"
               v-on:click="changeBackground"
             >
-              <span class="icon " v-if="dark">
+              <span class="icon" v-if="dark">
                 <ion-icon name="sunny-sharp"></ion-icon>
               </span>
-              <span class="icon " v-else>
+              <span class="icon" v-else>
                 <ion-icon name="moon-sharp"></ion-icon>
               </span>
             </button>
@@ -44,7 +44,7 @@
               type="button"
               v-on:click="changeLanguage"
             >
-              <span class="icon ">
+              <span class="icon">
                 <ion-icon name="language-outline"></ion-icon>
               </span>
             </button>

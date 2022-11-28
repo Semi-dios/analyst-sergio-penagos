@@ -24,7 +24,7 @@
       <footer>
         <slot name="footer"></slot>
       </footer>
-      <div class="bg-dark__carousel-steps">
+      <div class="bg-dark__carousel-steps is-hidden-mobile">
         <span
           class="icon bg-dark__carousel-steps-item"
           v-for="(index, step) in 4"
