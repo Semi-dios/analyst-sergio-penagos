@@ -1,7 +1,9 @@
 {
   "home": {
     "welcome": "Hi! I'm",
-    "name": "Sergio"
+    "name": "Sergio",
+    "myself": "Vue / Front-End Developer",
+    "button": "Download CV"
   },
   "loading" : {
     "title": "Loading…",

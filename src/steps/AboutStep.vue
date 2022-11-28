@@ -31,7 +31,7 @@ import { defineComponent } from "vue";
 
 import { mapState } from "vuex";
 export default defineComponent({
-  name: "HomeStep",
+  name: "AboutStep",
   components: {},
   computed: {
     ...mapState(["backgroundDark"]),
