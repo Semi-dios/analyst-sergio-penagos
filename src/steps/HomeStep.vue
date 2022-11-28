@@ -10,7 +10,7 @@
           <p class="subtitle is-3">{{ $t("home.myself") }}</p>
         </div>
         <button
-          class="button is-medium is-primary mb-6 has-text-weight-semibold is-rounded"
+          class="button is-medium is-primary my-6 has-text-weight-semibold is-rounded"
         >
           {{ $t("home.button") }}
         </button>
