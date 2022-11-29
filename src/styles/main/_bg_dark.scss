@@ -151,13 +151,14 @@ body,
       right: 0;
       display: flex;
       flex-direction: column;
-      align-items: center;
+
       width: 4rem;
       margin: 2rem 0.5rem;
       top: 45%;
       &-item {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         position: relative;
+        padding: 1.2rem 0rem;
         &:hover,
         &:active {
           color: $primary-50;
@@ -169,7 +170,7 @@ body,
           }
         }
         &.item-seleted {
-          font-size: 1.25rem;
+          font-size: 1.35rem;
           color: $primary-50;
         }
       }
