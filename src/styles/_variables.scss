@@ -16,9 +16,6 @@ $input-shadow: none;
 
 // Dark
 
-$body-background-color: #16161a;
-$body-color: $beige-lighter;
-
 $primary-75: #3e065f;
 $primary-50: #7f5af0;
 $primary-25: #5a67f0;
@@ -26,6 +23,13 @@ $blue: #5ab8f0;
 $blue-25: #5aeaf0;
 $green: #61f05a;
 $green-25: #5af0a4;
+$black: #16161a;
+$black-25: #2b2b32;
+$gray-50: #72757e;
+$gray-25: #94a1b2;
+
+$body-background-color: $black;
+$body-color: $beige-lighter;
 
 // Update Bulma's global variables
 $family-sans-serif: "Montserrat", sans-serif;

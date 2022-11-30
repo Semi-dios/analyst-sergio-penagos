@@ -5,19 +5,28 @@
     "myself": "Vue / Front-End Developer",
     "button": "Download CV"
   },
-  "about" : {
-    "title": "ABOUT ME", 
+  "about": {
+    "title": "ABOUT ME",
     "subtitle": "My personal experience",
     "description": "I've been an information system programmer since 4 years. I consider  that I have solid knowledge in Front-end development, web accessibility, avanced knowledge base. To be honest I like Javascript and my favorite framework is Vue."
   },
-  "loading" : {
+  "project": {
+    "title": "My lastest projects",
+    "subtitle": "Projects",
+    "more": "see more...",
+    "content": {
+      "name": "Dando CFG",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia.",
+      "image_alt": "Preview_dando"
+    }
+  },
+  "loading": {
     "title": "Loading…",
     "subtitle": "We are procesing your request",
     "description": "Don't exit the website, Please."
   },
-  "error" : {
-  "title": "Error",
-  "description": "May We have lost server conection."
+  "error": {
+    "title": "Error",
+    "description": "May We have lost server conection."
   }
-   
 }

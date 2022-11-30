@@ -64,7 +64,7 @@ body,
       &-social-media {
         position: absolute;
         color: inherit;
-        top: 35%;
+        top: 20%;
         display: flex;
         align-items: center;
         font-size: 1rem;
@@ -151,10 +151,10 @@ body,
       right: 0;
       display: flex;
       flex-direction: column;
-
+      z-index: 5;
       width: 4rem;
       margin: 2rem 0.5rem;
-      top: 45%;
+      top: 35%;
       &-item {
         font-size: 0.75rem;
         position: relative;
@@ -219,13 +219,15 @@ body,
 
   /* Styles About Screen */
   .about-screen {
+    margin-bottom: 10rem;
+
     @media screen and (min-width: 320px) {
       &__content-img {
         border: 1px solid $body-color;
         padding: 1.5rem;
         position: relative;
         height: 270px;
-        width: 100%;
+        width: 80%;
       }
 
       &__image {
@@ -245,6 +247,71 @@ body,
         right: -2.5rem;
       }
     }
+    @media screen and (min-width: 964px) {
+      &__content-img {
+        width: 100%;
+      }
+    }
   }
   /* End About Screen */
+
+  /* Styles Project Screen */
+  .project-screen {
+    &__title {
+      margin-bottom: 5rem;
+    }
+    .carousel__item {
+      width: 100%;
+      padding: 0.5rem;
+
+      &-content {
+        text-align: center;
+
+        background: $black-25;
+        padding: 1rem 1.5rem;
+
+        border-radius: 1rem;
+        position: relative;
+      }
+      &-picture {
+        margin-bottom: 1rem;
+        img {
+          border-radius: 1rem;
+        }
+      }
+      &-description {
+        background: linear-gradient(to top, $black-25 15%, $gray 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      .carousel__item {
+        padding: 9rem 2.5rem 2.5rem;
+        width: 90%;
+
+        &-content {
+          text-align: right;
+
+          border-radius: 3rem;
+          padding: 2rem 5rem;
+        }
+        &-picture {
+          position: absolute;
+          top: -40%;
+
+          left: 3rem;
+          img {
+            border-radius: 0;
+          }
+        }
+        &-description {
+          padding-top: 1rem;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  /* End Project Screen */
 }

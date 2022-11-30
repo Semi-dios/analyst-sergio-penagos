@@ -3,20 +3,30 @@
     "welcome": "Hola soy",
     "name": "Sergio",
     "myself": "Vue / Desarrollador Front-End",
-     "button": "Descargar CV"
+    "button": "Descargar CV"
   },
-  "about" : {
-    "title": "ACERCA DE MI", 
+  "about": {
+    "title": "ACERCA DE MI",
     "subtitle": "Experiencia personal",
-    "description": "Soy programador de sistemas de información desde hace 4 años. Considero que tengo sólidos conocimientos en desarrollo Front-end, accesibilidad web, base de conocimiento avanzada. Para ser honesto, me gusta Javascript y mi framework favorito es Vue."
+    "description": "Soy programador de sistemas de información desde hace 4 años. Considero que tengo sólidos conocimientos en desarrollo Front-end, accesibilidad web y responsive desing. Para ser honesto, me gusta Javascript y mi framework favorito es Vue."
   },
-  "loading" : {
+  "project": {
+    "title": "My ultimos proyectos",
+    "subtitle": "Proyectos",
+    "more": "ver mas...",
+    "content": {
+      "name": "Dando CFG",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia.",
+      "image_alt": "dando"
+    }
+  },
+  "loading": {
     "title": "Loading…",
     "subtitle": "Estamos procesando tu requerimiento",
     "description": "Por favor, no cierres esta ventana."
   },
-  "error" : {
-  "title": "Error",
-  "description": "Parece que perdimos conexión con el servidor."
+  "error": {
+    "title": "Error",
+    "description": "Parece que perdimos conexión con el servidor."
   }
 }
