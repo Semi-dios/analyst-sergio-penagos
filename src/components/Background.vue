@@ -1,7 +1,16 @@
 <template>
   <section class="section">
-    <div class="container bg-dark__carousel is-fluid">
-      <div class="bg-dark__carousel-social-media">
+    <div
+      class="container bg-dark__carousel is-fluid"
+      :class="backgroundDark ? 'bg-dark__carousel' : 'bg-light__carousel'"
+    >
+      <div
+        :class="
+          backgroundDark
+            ? 'bg-dark__carousel-social-media'
+            : 'bg-light__carousel-social-media'
+        "
+      >
         <a
           href="https://www.linkedin.com/in/analyst-sergio-penagos"
           target="_blank"
@@ -28,9 +37,21 @@
       <footer>
         <slot name="footer"></slot>
       </footer>
-      <div class="bg-dark__carousel-steps is-hidden-mobile">
+      <div
+        class="is-hidden-mobile"
+        :class="
+          backgroundDark
+            ? 'bg-dark__carousel-steps'
+            : 'bg-light__carousel-steps'
+        "
+      >
         <span
-          class="icon bg-dark__carousel-steps-item"
+          class="icon"
+          :class="
+            backgroundDark
+              ? 'bg-dark__carousel-steps-item'
+              : 'bg-light__carousel-steps-item'
+          "
           v-for="(index, step) in 4"
           :key="step"
           ref="stepsRef"
@@ -43,7 +64,11 @@
 </template>
 
 <script lang="ts">
+import { mapState } from "vuex";
 export default {
   name: "Background",
+  computed: {
+    ...mapState(["backgroundDark"]),
+  },
 };
 </script>

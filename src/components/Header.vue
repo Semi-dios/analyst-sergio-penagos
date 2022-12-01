@@ -1,6 +1,7 @@
 <template>
   <nav
-    class="navbar bg-dark__navbar"
+    class="navbar is-flex is-justify-content-space-between is-align-items-center"
+    :class="dark ? 'bg-dark__navbar' : 'bg-light__navbar'"
     role="navigation"
     aria-label="main navigation"
   >
@@ -9,28 +10,21 @@
         href="https://semi-dios.github.io/personal-website"
         class="is-size-4-mobile is-size-1 mb-0 navbar-item"
       >
-        Run<span class="text-gradient"> Dev </span>
-      </a>
-
-      <a
-        role="button"
-        class="navbar-burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+        <h3>Run<span class="text-gradient">Dev</span></h3>
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end bg-dark__navbar-end">
+    <div>
+      <div :class="dark ? 'bg-dark__navbar-end' : 'bg-light__navbar-end'">
         <div class="navbar-item">
           <div class="buttons">
             <button
-              class="is-small bg-dark__navbar-button-icon"
+              class="is-small"
+              :class="
+                dark
+                  ? 'bg-dark__navbar-button-icon'
+                  : 'bg-light__navbar-button-icon'
+              "
               type="button"
               v-on:click="changeBackground"
             >
@@ -43,7 +37,12 @@
             </button>
 
             <button
-              class="is-small bg-dark__navbar-button-icon"
+              class="is-small"
+              :class="
+                dark
+                  ? 'bg-dark__navbar-button-icon'
+                  : 'bg-light__navbar-button-icon'
+              "
               type="button"
               v-on:click="changeLanguage"
             >

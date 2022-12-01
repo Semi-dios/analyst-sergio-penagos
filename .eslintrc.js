@@ -17,6 +17,12 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
     "vue/multi-word-component-names": 0,
     "prettier/prettier": ["error", { endOfLine: "lf" }],
+    "vue/no-dupe-keys": [
+      "error",
+      {
+        groups: [],
+      },
+    ],
   },
   overrides: [
     {
