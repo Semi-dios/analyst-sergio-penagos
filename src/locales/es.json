@@ -6,7 +6,7 @@
     "button": "Descargar CV"
   },
   "about": {
-    "title": "ACERCA DE MI",
+    "title": "Acerca de mi",
     "subtitle": "Experiencia personal",
     "description": "Soy programador de sistemas de información desde hace 4 años. Considero que tengo sólidos conocimientos en desarrollo Front-end, accesibilidad web y responsive desing. Para ser honesto, me gusta Javascript y mi framework favorito es Vue."
   },
@@ -18,6 +18,31 @@
       "name": "Dando CFG",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia.",
       "image_alt": "dando"
+    }
+  },
+  "skills": {
+    "title": "Mi arsenal de Tecnologias",
+    "subtitle": "Habilidades",
+    "text_1": "Front-end",
+    "text_2": "Back-end",
+    "text_3": "Otros",
+    "front": {
+      "skill_1": "Vue",
+      "skill_2": "React Native",
+      "skill_3": "Html",
+      "skill_4": "Sass"
+    },
+    "back": {
+      "skill_1": "Laravel",
+      "skill_2": "Symfony",
+      "skill_3": "Php",
+      "skill_4": "Mysql"
+    },
+    "other": {
+      "skill_1": "Git",
+      "skill_2": "TypeScript",
+      "skill_3": "Figma",
+      "skill_4": "VsCode"
     }
   },
   "loading": {

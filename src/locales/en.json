@@ -6,7 +6,7 @@
     "button": "Download CV"
   },
   "about": {
-    "title": "ABOUT ME",
+    "title": "About me",
     "subtitle": "My personal experience",
     "description": "I've been an information system programmer since 4 years. I consider  that I have solid knowledge in Front-end development, web accessibility, avanced knowledge base. To be honest I like Javascript and my favorite framework is Vue."
   },
@@ -18,6 +18,31 @@
       "name": "Dando CFG",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia.",
       "image_alt": "Preview_dando"
+    }
+  },
+  "skills": {
+    "title": "All of my Technology arsenal",
+    "subtitle": "Skills",
+    "text_1": "Front-end ",
+    "text_2": "Back-end ",
+    "text_3": "Others ",
+    "front": {
+      "skill_1": "Vue",
+      "skill_2": "React Native",
+      "skill_3": "Html",
+      "skill_4": "Sass"
+    },
+    "back": {
+      "skill_1": "Laravel",
+      "skill_2": "Symfony",
+      "skill_3": "Php",
+      "skill_4": "Mysql"
+    },
+    "other": {
+      "skill_1": "Git",
+      "skill_2": "TypeScript",
+      "skill_3": "Figma",
+      "skill_4": "VsCode"
     }
   },
   "loading": {
