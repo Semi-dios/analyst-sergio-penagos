@@ -28,7 +28,7 @@
               </div>
               <a
                 type="button"
-                href="https://www.dando.co/es"
+                :href="index.site"
                 class="is-size-7-mobile is-size-5"
                 target="_blank"
               >
@@ -67,10 +67,22 @@ export default defineComponent({
   data() {
     return {
       pictures: [
-        { id: 1, url: "DeOne.png" },
-        { id: 2, url: "GrupoTravel.png" },
-        { id: 3, url: "DeOne.png" },
-        { id: 4, url: "DeOne.png" },
+        { id: 1, url: "DeOne.png", site: "https://www.dando.co/es" },
+        {
+          id: 2,
+          url: "GrupoTravel.png",
+          site: "https://semi-dios.github.io/landing-page-grupotravel/",
+        },
+        {
+          id: 3,
+          url: "DeOne.png",
+          site: "https://semi-dios.github.io/landing-page-grupotravel/",
+        },
+        {
+          id: 4,
+          url: "DeOne.png",
+          site: "https://semi-dios.github.io/landing-page-grupotravel/",
+        },
       ],
     };
   },
