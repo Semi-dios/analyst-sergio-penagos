@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-widescreen skill-screen">
+  <div class="container is-widescreen skill-screen" id="stepsRef4">
     <div class="columns mb-6">
       <div class="column is-12">
         <figure class="image skill-screen__image">

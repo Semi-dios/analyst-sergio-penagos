@@ -13,15 +13,61 @@
   "project": {
     "title": "My lastest projects",
     "subtitle": "Projects",
-    "more": "see more...",
-    "content": {
-      "name": "Dando CFG",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, adipisci debitis? Odit similique maxime rem neque, minima rerum fugit quam modi architecto earum, odio veritatis reprehenderit, officia cumque vel quia.",
-      "image_alt": "Preview_dando"
-    }
+    "more": "see more..."
+  },
+  "projects": {
+    "name_1": "Dando",
+    "techs_1": {
+      "tech_1": "JavaScript",
+      "tech_2": "Vue",
+      "tech_3": "Sass",
+      "tech_4": "Html5"
+    },
+    "image_alt_1": "dando",
+    "kind_1": "laboral",
+    "description_1": "Website that offers release credits for military, police and pensioners.",
+    "url_1": "Dando.png",
+    "site_1": "https://www.dando.co/es",
+    "name_2": "App DeOne",
+    "techs_2": {
+      "tech_1": "JavaScript",
+      "tech_2": "Html5",
+      "tech_3": "Sass",
+      "tech_4": "React-Native"
+    },
+    "url_2": "DeOne.png",
+    "image_alt_2": "deOne",
+    "description_2": "Mobile application that offers you Express Courier service, such as sending packages or any type of service you request.",
+    "kind_2": "laboral",
+    "site_2": "https://play.google.com/store/apps/details?id=com.qoopa.deone",
+    "name_3": "GrupoTravel",
+    "url_3": "GrupoTravel.png",
+    "kind_3": "personal",
+    "techs_3": {
+      "tech_1": "JavaScript",
+      "tech_2": "Html5",
+      "tech_3": "Sass",
+      "tech_4": "Github"
+    },
+    "description_3": "Web view available as a template or base to develop a simple landing page.",
+    "image_alt_3": "grupoTravel",
+    "site_3": "https://semi-dios.github.io/landing-page-grupotravel/",
+    "name_4": "Nice Jean",
+    "url_4": "NiceJean.png",
+
+    "techs_4": {
+      "tech_1": "JavaScript",
+      "tech_2": "Html5",
+      "tech_3": "Sass",
+      "tech_4": "Laravel"
+    },
+    "kind_4": "personal",
+    "site_4": "http://proyectoenterprise.herokuapp.com/login",
+    "image_alt_4": "niceJean",
+    "description_4": "Website that allows the management, history and analysis of inventories."
   },
   "skills": {
-    "title": "All of my Technology arsenal",
+    "title": "My stack tech",
     "subtitle": "Skills",
     "text_1": "Front-end ",
     "text_2": "Back-end ",

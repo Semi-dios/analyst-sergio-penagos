@@ -66,7 +66,7 @@
       &-social-media {
         position: absolute;
         color: inherit;
-        top: 13%;
+        top: 15%;
 
         display: flex;
         align-items: center;
@@ -162,8 +162,11 @@
         font-size: 0.75rem;
         position: relative;
         padding: 1.2rem 0rem;
+        color: $body-lg-color;
+
         &:hover,
-        &:active {
+        &:active,
+        &:visited {
           color: $primary-50;
           cursor: pointer;
         }
@@ -281,12 +284,16 @@
         margin-bottom: 1rem;
         img {
           border-radius: 1rem;
+          object-fit: contain;
+          width: auto;
+          max-height: 151px;
         }
       }
       &-description {
         background: linear-gradient(to top, $gray-25 15%, $black-25 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+        height: 50px;
       }
     }
     @media screen and (min-width: 1200px) {
@@ -309,11 +316,13 @@
           left: 3rem;
           img {
             border-radius: 0;
+            max-height: 251px;
           }
         }
         &-description {
           padding-top: 1rem;
           text-align: left;
+          height: 100px;
         }
       }
     }
