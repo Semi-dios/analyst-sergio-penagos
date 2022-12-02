@@ -45,7 +45,7 @@
             : 'bg-light__carousel-steps'
         "
       >
-        <span
+        <a
           class="icon"
           :class="
             backgroundDark
@@ -53,11 +53,12 @@
               : 'bg-light__carousel-steps-item'
           "
           v-for="(index, step) in 4"
+          :href="`#stepsRef${index}`"
           :key="step"
-          ref="stepsRef"
+          :ref="`stepsRef${index}`"
         >
           <ion-icon name="ellipse-sharp"></ion-icon>
-        </span>
+        </a>
       </div>
     </div>
   </section>
@@ -65,10 +66,11 @@
 
 <script lang="ts">
 import { mapState } from "vuex";
-export default {
+import { defineComponent } from "vue";
+export default defineComponent({
   name: "Background",
   computed: {
     ...mapState(["backgroundDark"]),
   },
-};
+});
 </script>

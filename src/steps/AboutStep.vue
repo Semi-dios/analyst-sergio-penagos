@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-max-desktop about-screen">
+  <div class="container is-max-desktop about-screen" id="stepsRef2">
     <div class="columns">
       <div class="column is-variable is-12-mobile is-9-tablet">
         <div class="about-screen__description">
