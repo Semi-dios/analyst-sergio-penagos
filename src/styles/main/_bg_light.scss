@@ -175,7 +175,7 @@
             display: none;
           }
         }
-        &.item-seleted {
+        &.step-selected {
           font-size: 1.35rem;
           color: $primary-50;
         }
@@ -279,6 +279,13 @@
 
         border-radius: 1rem;
         position: relative;
+
+        a {
+          color: $primary-50;
+          &:hover {
+            color: $primary-25;
+          }
+        }
       }
       &-picture {
         margin-bottom: 1rem;
@@ -322,7 +329,7 @@
         &-description {
           padding-top: 1rem;
           text-align: left;
-          height: 100px;
+          height: 150px;
         }
       }
     }

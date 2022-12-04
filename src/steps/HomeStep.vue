@@ -1,5 +1,5 @@
 <template>
-  <div class="columns mb-6" id="stepsRef1">
+  <div class="columns mb-6">
     <div class="column is-variable is-12-mobile">
       <div class="home-screen">
         <div class="home-screen__title">

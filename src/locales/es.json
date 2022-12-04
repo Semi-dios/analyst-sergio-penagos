@@ -10,11 +10,11 @@
   },
 
   "about": {
-    "title": "Acerca de mí",
+    "title": "Una pequeña introducción",
 
-    "subtitle": "Experiencia personal",
+    "subtitle": "Acerca de mí",
 
-    "description": "Soy programador de sistemas de información desde hace 4 años. Considero que tengo sólidos conocimientos en desarrollo Front-end, accesibilidad web y responsive desing. Para ser honesto, me gusta Javascript y mi framework favorito es Vue."
+    "description": "Hola, soy programador de sistemas de información desde hace 4 años. Considero que tengo sólidos conocimientos en desarrollo Front-end, accesibilidad web y responsive desing. Para ser honesto, me gusta Javascript y mi framework favorito es Vue."
   },
 
   "project": {
@@ -29,15 +29,16 @@
     "name_1": "Dando",
 
     "techs_1": {
-      "tech_1": "JavaScript",
-      "tech_2": "Vue",
-      "tech_3": "Sass",
-      "tech_4": "Html5"
+      "tech_1": "Html5",
+      "tech_2": "Sass",
+      "tech_3": "Vue",
+      "tech_4": "JavaScript",
+      "tech_5": "Github"
     },
 
     "image_alt_1": "dando",
 
-    "kind_1": "laboral",
+    "kind_1": "Laboral",
 
     "description_1": "Sitio web que ofrece créditos de libranza para militares, policías y pensionados",
 
@@ -48,10 +49,11 @@
     "name_2": "DeOne",
 
     "techs_2": {
-      "tech_1": "JavaScript",
-      "tech_2": "Html5",
-      "tech_3": "Sass",
-      "tech_4": "React-Native"
+      "tech_1": "Html5",
+      "tech_2": "Css3",
+      "tech_3": "React-Native",
+      "tech_4": "JavaScript",
+      "tech_5": "Bitbucket"
     },
 
     "url_2": "DeOne.png",
@@ -59,7 +61,7 @@
 
     "description_2": "Aplicación móvil que te ofrece servicio de Mensajería Express, como enviar paquetes o cualquier tipo de servicio que solicites.",
 
-    "kind_2": "laboral",
+    "kind_2": "Laboral",
 
     "site_2": "https://play.google.com/store/apps/details?id=com.qoopa.deone",
 
@@ -67,13 +69,14 @@
 
     "url_3": "GrupoTravel.png",
 
-    "kind_3": "personal",
+    "kind_3": "Personal",
 
     "techs_3": {
-      "tech_1": "JavaScript",
-      "tech_2": "Html5",
-      "tech_3": "Sass",
-      "tech_4": "Github"
+      "tech_1": "Html5",
+      "tech_2": "Sass",
+      "tech_3": "JavaScript",
+      "tech_4": "Github",
+      "tech_5": "Otra"
     },
 
     "description_3": "Vista web disponible como template o base para desarrollar un landing page sencillo",
@@ -83,15 +86,15 @@
     "name_4": "Nice Jean",
 
     "url_4": "NiceJean.png",
-
     "techs_4": {
-      "tech_1": "JavaScript",
-      "tech_2": "Html5",
-      "tech_3": "Sass",
-      "tech_4": "Laravel"
+      "tech_1": "Html5",
+      "tech_2": "Css3",
+      "tech_3": "JavaScript",
+      "tech_4": "Laravel",
+      "tech_5": "Github"
     },
 
-    "kind_4": "personal",
+    "kind_4": "Personal",
 
     "site_4": "http://proyectoenterprise.herokuapp.com/login",
     "image_alt_4": "niceJean",

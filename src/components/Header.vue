@@ -1,5 +1,5 @@
 <template>
-  <nav
+  <nav  id="stepsRef1"
     class="navbar is-flex is-justify-content-space-between is-align-items-center"
     :class="dark ? 'bg-dark__navbar' : 'bg-light__navbar'"
     role="navigation"
