@@ -6,8 +6,8 @@
     "button": "Download CV"
   },
   "about": {
-    "title": "About me",
-    "subtitle": "My personal experience",
+    "title": "A little introduction ",
+    "subtitle": "About me",
     "description": "I've been an information system programmer since 4 years. I consider  that I have solid knowledge in Front-end development, web accessibility, avanced knowledge base. To be honest I like Javascript and my favorite framework is Vue."
   },
   "project": {
@@ -18,36 +18,39 @@
   "projects": {
     "name_1": "Dando",
     "techs_1": {
-      "tech_1": "JavaScript",
-      "tech_2": "Vue",
-      "tech_3": "Sass",
-      "tech_4": "Html5"
+      "tech_1": "Html5",
+      "tech_2": "Sass",
+      "tech_3": "Vue",
+      "tech_4": "JavaScript",
+      "tech_5": "Github"
     },
     "image_alt_1": "dando",
-    "kind_1": "laboral",
+    "kind_1": "Work",
     "description_1": "Website that offers release credits for military, police and pensioners.",
     "url_1": "Dando.png",
     "site_1": "https://www.dando.co/es",
     "name_2": "App DeOne",
     "techs_2": {
-      "tech_1": "JavaScript",
-      "tech_2": "Html5",
-      "tech_3": "Sass",
-      "tech_4": "React-Native"
+      "tech_1": "Html5",
+      "tech_2": "Css3",
+      "tech_3": "React-Native",
+      "tech_4": "JavaScript",
+      "tech_5": "Bitbucket"
     },
     "url_2": "DeOne.png",
     "image_alt_2": "deOne",
     "description_2": "Mobile application that offers you Express Courier service, such as sending packages or any type of service you request.",
-    "kind_2": "laboral",
+    "kind_2": "Work",
     "site_2": "https://play.google.com/store/apps/details?id=com.qoopa.deone",
     "name_3": "GrupoTravel",
     "url_3": "GrupoTravel.png",
-    "kind_3": "personal",
+    "kind_3": "Personal",
     "techs_3": {
-      "tech_1": "JavaScript",
-      "tech_2": "Html5",
-      "tech_3": "Sass",
-      "tech_4": "Github"
+      "tech_1": "Html5",
+      "tech_2": "Sass",
+      "tech_3": "JavaScript",
+      "tech_4": "Github",
+      "tech_5": "Other"
     },
     "description_3": "Web view available as a template or base to develop a simple landing page.",
     "image_alt_3": "grupoTravel",
@@ -56,12 +59,13 @@
     "url_4": "NiceJean.png",
 
     "techs_4": {
-      "tech_1": "JavaScript",
-      "tech_2": "Html5",
-      "tech_3": "Sass",
-      "tech_4": "Laravel"
+      "tech_1": "Html5",
+      "tech_2": "Css3",
+      "tech_3": "JavaScript",
+      "tech_4": "Laravel",
+      "tech_5": "Github"
     },
-    "kind_4": "personal",
+    "kind_4": "Personal",
     "site_4": "http://proyectoenterprise.herokuapp.com/login",
     "image_alt_4": "niceJean",
     "description_4": "Website that allows the management, history and analysis of inventories."
