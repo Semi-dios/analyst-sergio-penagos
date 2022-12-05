@@ -1,7 +1,5 @@
 <template>
- 
-  <section class="section"
-  @scroll.passive="onScroll">
+  <section class="section" @scroll.passive="onScroll">
     <div
       class="container bg-dark__carousel is-fluid"
       :class="backgroundDark ? 'bg-dark__carousel' : 'bg-light__carousel'"
@@ -12,7 +10,6 @@
             ? 'bg-dark__carousel-social-media'
             : 'bg-light__carousel-social-media'
         "
-        
       >
         <a
           href="https://www.linkedin.com/in/analyst-sergio-penagos"
@@ -67,8 +64,6 @@
       </div>
     </div>
   </section>
-
-
 </template>
 
 <script lang="ts">
@@ -82,34 +77,30 @@ export default defineComponent({
   data() {
     return {
       isSelected: 1,
-      
-    }
+    };
   },
   methods: {
     stepSelected(step: any) {
       this.isSelected = step;
     },
-   onScroll() {  
-    let bottomOfWindow = document.documentElement.scrollTop;       
-    if (bottomOfWindow > 550 && bottomOfWindow <= 999) {
+    onScroll() {
+      let bottomOfWindow = document.documentElement.scrollTop;
+      if (bottomOfWindow > 550 && bottomOfWindow <= 999) {
         this.isSelected = 2;
-    }else if(bottomOfWindow >= 1000  && bottomOfWindow <= 1549) {
+      } else if (bottomOfWindow >= 1000 && bottomOfWindow <= 1549) {
         this.isSelected = 3;
-    }else if(bottomOfWindow >= 1600) {
+      } else if (bottomOfWindow >= 1600) {
         this.isSelected = 4;
-    }else {      
-       this.isSelected =1;
-    }
-    
-
-   },
+      } else {
+        this.isSelected = 1;
+      }
+    },
   },
   created() {
-    document.addEventListener('scroll', this.onScroll)
+    document.addEventListener("scroll", this.onScroll);
   },
-  destroyed() {
-    document.removeEventListener('scroll', this.onScroll)
-  }
-})
+  unmounted() {
+    document.removeEventListener("scroll", this.onScroll);
+  },
+});
 </script>
-
