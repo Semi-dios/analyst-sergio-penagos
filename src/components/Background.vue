@@ -50,13 +50,13 @@
           :class="[
             backgroundDark
               ? 'bg-dark__carousel-steps-item'
-              : 'bg-light__carousel-steps-item',isSelected === index ? 'step-selected': ''
+              : 'bg-light__carousel-steps-item',
+            isSelected === index ? 'step-selected' : '',
           ]"
           v-for="(index, step) in 4"
           :href="`#stepsRef${index}`"
           :key="step"
           :ref="`stepsRef${index}`"
-       
           @click="stepSelected(index)"
         >
           <ion-icon name="ellipse-sharp"></ion-icon>
@@ -76,13 +76,13 @@ export default defineComponent({
   },
   data() {
     return {
-      isSelected: false
-    }
+      isSelected: false,
+    };
   },
   methods: {
     stepSelected(step: any) {
-      this.isSelected= step;
-    }
-  }
+      this.isSelected = step;
+    },
+  },
 });
 </script>

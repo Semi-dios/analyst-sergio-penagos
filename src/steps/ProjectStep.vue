@@ -27,24 +27,30 @@
 
               <div class="carousel__item-description">
                 <div class="is-flex mb-1">
-                  <h6 class=""
-                    >#{{ $t(`projects.kind_${index}`) }}</h6
-                  >
+                  <h6 class="">#{{ $t(`projects.kind_${index}`) }}</h6>
                 </div>
                 <div class="is-flex mb-3">
-                  <p v-for="project in 5" :key="project" 
+                  <p
+                    v-for="project in 5"
+                    :key="project"
                     class="is-size-7-mobile is-flex is-align-items-center mr-1 is-size-6"
                   >
-                    <span class="icon" v-if="$te(`projects.techs_${index}.tech_${project}`)">
-                      <ion-icon 
-                        :name="'logo-' + $t(`projects.techs_${index}.tech_${project}`)"
+                    <span
+                      class="icon"
+                      v-if="$te(`projects.techs_${index}.tech_${project}`)"
+                    >
+                      <ion-icon
+                        :name="
+                          'logo-' +
+                          $t(`projects.techs_${index}.tech_${project}`)
+                        "
                       ></ion-icon>
                     </span>
                     <span class="icon" v-else>
                       <ion-icon name="logo-web-component"></ion-icon>
                     </span>
-                    <span v-if="$te(`projects.techs_${index}.tech_${project}`)"> 
-                    {{ $t(`projects.techs_${index}.tech_${project}`) }}
+                    <span v-if="$te(`projects.techs_${index}.tech_${project}`)">
+                      {{ $t(`projects.techs_${index}.tech_${project}`) }}
                     </span>
                   </p>
                 </div>
@@ -84,7 +90,7 @@ export default defineComponent({
   props: {
     images: Array,
   },
-  
+
   components: {
     Carousel,
     Slide,
