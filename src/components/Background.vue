@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section" @scroll.passive="onScroll">
     <div
       class="container bg-dark__carousel is-fluid"
       :class="backgroundDark ? 'bg-dark__carousel' : 'bg-light__carousel'"
@@ -35,7 +35,7 @@
         <slot name="main"></slot>
       </main>
       <footer>
-        <slot name="footer"></slot>
+        <slot name="foot"></slot>
       </footer>
       <div
         class="is-hidden-mobile"
@@ -76,13 +76,31 @@ export default defineComponent({
   },
   data() {
     return {
-      isSelected: false,
+      isSelected: 1,
     };
   },
   methods: {
     stepSelected(step: any) {
       this.isSelected = step;
     },
+    onScroll() {
+      let bottomOfWindow = document.documentElement.scrollTop;
+      if (bottomOfWindow > 550 && bottomOfWindow <= 999) {
+        this.isSelected = 2;
+      } else if (bottomOfWindow >= 1000 && bottomOfWindow <= 1549) {
+        this.isSelected = 3;
+      } else if (bottomOfWindow >= 1600) {
+        this.isSelected = 4;
+      } else {
+        this.isSelected = 1;
+      }
+    },
+  },
+  created() {
+    document.addEventListener("scroll", this.onScroll);
+  },
+  unmounted() {
+    document.removeEventListener("scroll", this.onScroll);
   },
 });
 </script>
