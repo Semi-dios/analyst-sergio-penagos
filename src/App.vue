@@ -1,4 +1,5 @@
 <template>
+
   <div :class="backgroundDark ? 'bg-dark' : 'bg-light'">
     <Header></Header>
     <Background>
@@ -8,8 +9,12 @@
         <project-step />
         <skill-step />
       </template>
+      <template v-slot:foot>
+        <footer-custom />
+      </template>
     </Background>
   </div>
+
 </template>
 
 <script lang="ts">
@@ -22,6 +27,7 @@ import SkillStep from "./steps/SkillStep.vue";
 import Background from "./components/Background.vue";
 import { mapState } from "vuex";
 import Header from "./components/Header.vue";
+import FooterCustom from "./components/FooterCustom.vue";
 export default defineComponent({
   name: "App",
   components: {
@@ -31,9 +37,11 @@ export default defineComponent({
     Header,
     AboutStep,
     SkillStep,
+    FooterCustom,
   },
   computed: {
     ...mapState(["backgroundDark"]),
   },
 });
 </script>
+
