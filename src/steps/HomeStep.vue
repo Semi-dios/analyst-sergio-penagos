@@ -1,10 +1,8 @@
 <template>
   <div class="columns" data-aos="zoom-out-up">
     <div class="column is-variable is-12-mobile">
-      <div class="home-screen"
-      
-    >
-        <div class="home-screen__title" >
+      <div class="home-screen">
+        <div class="home-screen__title">
           <h1
             class="has-text-weight-bold title is-size-3-mobile is-size-1 is-spaced"
             data-aos="fade-left"
