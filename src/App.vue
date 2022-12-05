@@ -1,4 +1,5 @@
 <template>
+
   <div :class="backgroundDark ? 'bg-dark' : 'bg-light'">
     <Header></Header>
     <Background>
@@ -13,6 +14,7 @@
       </template>
     </Background>
   </div>
+
 </template>
 
 <script lang="ts">
@@ -42,3 +44,4 @@ export default defineComponent({
   },
 });
 </script>
+

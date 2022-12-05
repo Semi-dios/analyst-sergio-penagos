@@ -18,7 +18,7 @@
         <Slide v-for="(index, image) in projects" :key="image.id">
           <div class="carousel__item">
             <div class="carousel__item-content">
-              <figure class="image carousel__item-picture">
+              <figure class="image carousel__item-picture" >
                 <img
                   :src="require('@/assets/' + $t(`projects.url_${index}`))"
                   :alt="$t(`projects.image_alt_${index}`)"
@@ -66,7 +66,7 @@
                     </span>
                   </p>
                 </div>
-                <p class="is-size-7-mobile is-size-6">
+                <p class="is-size-7-mobile is-size-6" >
                   {{ $t(`projects.description_${index}`) }}
                 </p>
               </div>

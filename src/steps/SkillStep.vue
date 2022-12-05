@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="columns skill-screen__content">
+    <div class="columns skill-screen__content" >
       <div class="column is-3-tablet is-variable is-12-mobile">
         <div class="skill-screen__content-skill" data-aos="fade-right">
           <span class="text-gradient is-size-5-mobile is-size-4"> 01 </span>
