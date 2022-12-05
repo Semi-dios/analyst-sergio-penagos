@@ -1,6 +1,10 @@
 <template>
-  <div class="has-text-centered mt-6 project-screen" id="stepsRef3">
-    <div class="project-screen__title">
+  <div
+    class="has-text-centered mt-6 py-6 project-screen"
+    data-aos="fade-up"
+    id="stepsRef3"
+  >
+    <div class="project-screen__title mb-6" data-aos="fade-right ">
       <span class="text-gradient is-size-4-mobile is-size-3 mb-3">{{
         $t("project.subtitle")
       }}</span>
@@ -18,33 +22,47 @@
                 <img
                   :src="require('@/assets/' + $t(`projects.url_${index}`))"
                   :alt="$t(`projects.image_alt_${index}`)"
+                  data-aos="zoom-in"
                 />
               </figure>
 
-              <h2 class="has-text-weight-bold is-size-4-mobile is-size-2 mb-6">
+              <h2
+                class="has-text-weight-bold is-size-4-mobile is-size-2 mb-6"
+                data-aos="fade-left"
+              >
                 {{ $t(`projects.name_${index}`) }}
               </h2>
 
               <div class="carousel__item-description">
                 <div class="is-flex mb-1">
-                  <h6 class=""
-                    >#{{ $t(`projects.kind_${index}`) }}</h6
-                  >
+                  <h6 class="">#{{ $t(`projects.kind_${index}`) }}</h6>
                 </div>
-                <div class="is-flex mb-3">
-                  <p v-for="project in 5" :key="project" 
+                <div class="is-flex is-flex-wrap-wrap mb-3">
+                  <p
+                    v-for="project in 5"
+                    :key="project"
                     class="is-size-7-mobile is-flex is-align-items-center mr-1 is-size-6"
                   >
-                    <span class="icon" v-if="$te(`projects.techs_${index}.tech_${project}`)">
-                      <ion-icon 
-                        :name="'logo-' + $t(`projects.techs_${index}.tech_${project}`)"
+                    <span
+                      class="icon"
+                      v-if="$te(`projects.techs_${index}.tech_${project}`)"
+                    >
+                      <ion-icon
+                        data-aos="fade-right"
+                        :name="
+                          'logo-' +
+                          $t(`projects.techs_${index}.tech_${project}`)
+                        "
                       ></ion-icon>
                     </span>
                     <span class="icon" v-else>
-                      <ion-icon name="logo-web-component"></ion-icon>
+                      <ion-icon
+                        name="logo-web-component"
+                        data-aos="fade-right"
+                      ></ion-icon>
                     </span>
-                    <span v-if="$te(`projects.techs_${index}.tech_${project}`)"> 
-                    {{ $t(`projects.techs_${index}.tech_${project}`) }}
+                    <span v-if="$te(`projects.techs_${index}.tech_${project}`)">
+                      {{ $t(`projects.techs_${index}.tech_${project}`) }}
                     </span>
                   </p>
                 </div>
@@ -54,6 +72,7 @@
               </div>
               <a
                 type="button"
+                data-aos="fade-left"
                 :href="$t(`projects.site_${index}`)"
                 class="is-size-7-mobile is-size-5"
                 target="_blank"
@@ -84,7 +103,7 @@ export default defineComponent({
   props: {
     images: Array,
   },
-  
+
   components: {
     Carousel,
     Slide,

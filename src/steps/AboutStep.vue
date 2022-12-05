@@ -1,7 +1,10 @@
 <template>
-  <div class="container is-max-desktop about-screen" id="stepsRef2">
+  <div class="container is-max-desktop about-screen py-5" id="stepsRef2">
     <div class="columns">
-      <div class="column is-variable is-12-mobile is-9-tablet">
+      <div
+        class="column is-variable is-12-mobile is-9-tablet"
+        data-aos="fade-left"
+      >
         <div class="about-screen__description">
           <span class="text-gradient is-size-4-mobile is-size-3">{{
             $t("about.title")
@@ -16,8 +19,11 @@
           </p>
         </div>
       </div>
-      <div class="column is-3-tablet is-variable is-12-mobile">
-        <div class="about-screen__content-img">
+      <div
+        class="column is-3-tablet is-variable is-12-mobile"
+        data-aos="fade-right"
+      >
+        <div class="about-screen__content-img" data-aos="zoom-in-up">
           <figure class="image about-screen__image">
             <img v-if="image_profile" alt="personal" :src="image_profile" />
             <img

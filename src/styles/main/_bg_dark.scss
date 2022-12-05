@@ -212,7 +212,7 @@
       }
     }
     @media screen and (min-width: 765px) {
-      margin-bottom: 15rem;
+      margin-bottom: 10rem;
       &__title {
         margin-top: 4rem;
         margin-bottom: 4rem;
@@ -253,6 +253,8 @@
       }
     }
     @media screen and (min-width: 964px) {
+      margin-top: 5rem;
+
       &__content-img {
         width: 100%;
       }
@@ -297,7 +299,7 @@
         background: linear-gradient(to top, $black-25 15%, $gray 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        height: 50px;
+        height: auto;
       }
     }
     @media screen and (min-width: 1200px) {
