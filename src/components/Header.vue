@@ -7,10 +7,7 @@
     aria-label="main navigation"
   >
     <div class="navbar-brand">
-      <a
-        href="https://semi-dios.github.io/personal-website"
-        class="is-size-4-mobile is-size-1 mb-0 navbar-item"
-      >
+      <a :href="currentUrl" class="is-size-4-mobile is-size-1 mb-0 navbar-item">
         <h3>Run<span class="text-gradient">Dev</span></h3>
       </a>
     </div>
@@ -72,6 +69,7 @@ export default defineComponent({
     return {
       dark: true,
       languageEnglish: true,
+      currentUrl: "",
     };
   },
   methods: {
@@ -84,6 +82,9 @@ export default defineComponent({
       this.languageEnglish = !this.languageEnglish;
       this.$i18n.locale = this.languageEnglish ? "en" : "es";
     },
+  },
+  created() {
+    this.currentUrl = window.location.href;
   },
 });
 </script>
