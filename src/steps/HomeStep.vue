@@ -5,7 +5,7 @@
         <div class="home-screen__title">
           <h1
             class="has-text-weight-bold title is-size-3-mobile is-size-1 is-spaced"
-            data-aos="fade-left"
+            data-aos="fade-up"
           >
             {{ $t("home.welcome") }}
             <span class="text-gradient">{{ $t("home.name") }}</span>

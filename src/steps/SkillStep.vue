@@ -26,9 +26,9 @@
             {{ $t("skills.text_1") }}
           </h6>
 
-          <ul class="skill-screen__list" data-aos="fade-left">
+          <ul class="skill-screen__list" data-aos="fade-up">
             <li
-              v-for="index in 4"
+              v-for="index in 5"
               :key="index"
               class="has-text-weight-normal is-size-7-mobile is-size-6 mb-1"
             >
@@ -45,7 +45,7 @@
           </h6>
           <ul class="skill-screen__list" data-aos="fade-up">
             <li
-              v-for="index in 4"
+              v-for="index in 5"
               :key="index"
               class="has-text-weight-normal is-size-7-mobile is-size-6 mb-1"
             >
@@ -55,14 +55,14 @@
         </div>
       </div>
       <div class="column is-3-tablet is-variable is-12-mobile">
-        <div class="skill-screen__content-skill" data-aos="fade-left">
+        <div class="skill-screen__content-skill" data-aos="fade-up">
           <span class="text-gradient is-size-5-mobile is-size-4"> 03 </span>
           <h6 class="has-text-weight-semibold is-size-5-mobile is-size-4 mb-4">
             {{ $t("skills.text_3") }}
           </h6>
           <ul class="skill-screen__list" data-aos="fade-right">
             <li
-              v-for="index in 4"
+              v-for="index in 5"
               :key="index"
               class="has-text-weight-normal is-size-7-mobile is-size-6 mb-1"
             >
