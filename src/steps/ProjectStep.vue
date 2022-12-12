@@ -28,7 +28,7 @@
 
               <h2
                 class="has-text-weight-bold is-size-4-mobile is-size-2 mb-6"
-                data-aos="fade-left"
+                data-aos="fade-up"
               >
                 {{ $t(`projects.name_${index}`) }}
               </h2>
@@ -72,7 +72,7 @@
               </div>
               <a
                 type="button"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 :href="$t(`projects.site_${index}`)"
                 class="is-size-7-mobile is-size-5"
                 target="_blank"

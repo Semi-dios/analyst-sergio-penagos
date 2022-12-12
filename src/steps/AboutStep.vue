@@ -3,7 +3,7 @@
     <div class="columns">
       <div
         class="column is-variable is-12-mobile is-9-tablet"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <div class="about-screen__description">
           <span class="text-gradient is-size-4-mobile is-size-3">{{

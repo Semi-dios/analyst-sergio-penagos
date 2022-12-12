@@ -80,19 +80,22 @@
       "skill_1": "Vue",
       "skill_2": "React Native",
       "skill_3": "Html",
-      "skill_4": "Sass"
+      "skill_4": "Css(Sass)",
+      "skill_5": "JavaScript"
     },
     "back": {
       "skill_1": "Laravel",
       "skill_2": "Symfony",
       "skill_3": "Php",
-      "skill_4": "Mysql"
+      "skill_4": "Mysql",
+      "skill_5": "Postman"
     },
     "other": {
       "skill_1": "Git",
       "skill_2": "TypeScript",
       "skill_3": "Figma",
-      "skill_4": "VsCode"
+      "skill_4": "VsCode",
+      "skill_5": "Jira"
     }
   },
   "loading": {

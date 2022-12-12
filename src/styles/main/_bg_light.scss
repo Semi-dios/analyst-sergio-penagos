@@ -92,10 +92,11 @@
           color: inherit;
           display: inline-flex;
           align-items: center;
+          cursor: pointer;
+
           &:hover,
           &:active {
             color: $primary-50;
-            cursor: pointer;
           }
 
           &:first-child {
@@ -165,8 +166,7 @@
         color: $body-lg-color;
 
         &:hover,
-        &:active,
-        &:visited {
+        &:active {
           color: $primary-50;
           cursor: pointer;
         }
