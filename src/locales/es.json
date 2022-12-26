@@ -83,22 +83,20 @@
     "image_alt_3": "grupoTravel",
     "site_3": "https://semi-dios.github.io/landing-page-grupotravel/",
 
-    "name_4": "Nice Jean",
+    "name_4": "Landing Google",
+    "url_4": "LandingGoogle.png",
 
-    "url_4": "NiceJean.png",
     "techs_4": {
       "tech_1": "Html5",
-      "tech_2": "Css3",
+      "tech_2": "Sass",
       "tech_3": "JavaScript",
-      "tech_4": "Laravel",
+      "tech_4": "Vue",
       "tech_5": "Github"
     },
-
     "kind_4": "Personal",
-
-    "site_4": "http://proyectoenterprise.herokuapp.com/login",
-    "image_alt_4": "niceJean",
-    "description_4": "Sitio web que permite la administración, historial y análisis de inventarios."
+    "site_4": "https://semi-dios.github.io/landing-page-google/",
+    "image_alt_4": "google",
+    "description_4": "Landing page de google. Vista web disponible como template o base."
   },
 
   "skills": {

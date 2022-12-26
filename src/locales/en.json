@@ -55,20 +55,20 @@
     "description_3": "Web view available as a template or base to develop a simple landing page.",
     "image_alt_3": "grupoTravel",
     "site_3": "https://semi-dios.github.io/landing-page-grupotravel/",
-    "name_4": "Nice Jean",
-    "url_4": "NiceJean.png",
+    "name_4": "Landing Google",
+    "url_4": "LandingGoogle.png",
 
     "techs_4": {
       "tech_1": "Html5",
-      "tech_2": "Css3",
+      "tech_2": "Sass",
       "tech_3": "JavaScript",
-      "tech_4": "Laravel",
+      "tech_4": "Vue",
       "tech_5": "Github"
     },
     "kind_4": "Personal",
-    "site_4": "http://proyectoenterprise.herokuapp.com/login",
-    "image_alt_4": "niceJean",
-    "description_4": "Website that allows the management, history and analysis of inventories."
+    "site_4": "https://semi-dios.github.io/landing-page-google/",
+    "image_alt_4": "google",
+    "description_4": "Google's landing page, this is a view available as a template or base."
   },
   "skills": {
     "title": "My stack tech",

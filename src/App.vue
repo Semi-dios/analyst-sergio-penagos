@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent } from "vue";
 
 import HomeStep from "./steps/HomeStep.vue";
 import AboutStep from "./steps/AboutStep.vue";
