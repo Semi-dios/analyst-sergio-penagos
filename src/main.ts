@@ -17,4 +17,4 @@ app.use(store);
 app.config.globalProperties.$store = store;
 app.use(TroisJSVuePlugin);
 
-app.mount("#personalwbesite");
+app.mount("#personalwebsite");
