@@ -1,33 +1,22 @@
 {
   "home": {
     "welcome": "Hola, soy",
-
     "name": "Sergio Penagos",
-
     "myself": "Vue / Desarrollador Front-End",
-
     "button": "Descargar CV"
   },
-
   "about": {
     "title": "Una pequeña introducción",
-
     "subtitle": "Acerca de mí",
-
     "description": "Hola, soy programador de sistemas de información desde hace 4 años. Considero que tengo sólidos conocimientos en desarrollo Front-end, accesibilidad web y responsive desing. Para ser honesto, me gusta Javascript y mi framework favorito es Vue."
   },
-
   "project": {
     "title": "Mis últimos proyectos",
-
     "subtitle": "Proyectos",
-
     "more": "ver más..."
   },
-
   "projects": {
     "name_1": "Dando",
-
     "techs_1": {
       "tech_1": "Html5",
       "tech_2": "Sass",
@@ -35,19 +24,12 @@
       "tech_4": "JavaScript",
       "tech_5": "Github"
     },
-
     "image_alt_1": "dando",
-
     "kind_1": "Laboral",
-
     "description_1": "Sitio web que ofrece créditos de libranza para militares, policías y pensionados",
-
     "url_1": "Dando.png",
-
     "site_1": "https://www.dando.co/es",
-
     "name_2": "DeOne",
-
     "techs_2": {
       "tech_1": "Html5",
       "tech_2": "Css3",
@@ -55,22 +37,14 @@
       "tech_4": "JavaScript",
       "tech_5": "Bitbucket"
     },
-
     "url_2": "DeOne.png",
     "image_alt_2": "deOne",
-
     "description_2": "Aplicación móvil que te ofrece servicio de Mensajería Express, como enviar paquetes o cualquier tipo de servicio que solicites.",
-
     "kind_2": "Laboral",
-
     "site_2": "https://play.google.com/store/apps/details?id=com.qoopa.deone",
-
     "name_3": "GrupoTravel",
-
     "url_3": "GrupoTravel.png",
-
     "kind_3": "Personal",
-
     "techs_3": {
       "tech_1": "Html5",
       "tech_2": "Sass",
@@ -78,14 +52,11 @@
       "tech_4": "Github",
       "tech_5": "Otra"
     },
-
     "description_3": "Vista web disponible como template o base para desarrollar un landing page sencillo",
     "image_alt_3": "grupoTravel",
     "site_3": "https://semi-dios.github.io/landing-page-grupotravel/",
-
     "name_4": "Landing Google",
     "url_4": "LandingGoogle.png",
-
     "techs_4": {
       "tech_1": "Html5",
       "tech_2": "Sass",
@@ -98,18 +69,12 @@
     "image_alt_4": "google",
     "description_4": "Landing page de google. Vista web disponible como template o base."
   },
-
   "skills": {
     "title": "Mi arsenal de tecnologías",
-
     "subtitle": "Habilidades",
-
     "text_1": "Front-end",
-
     "text_2": "Back-end",
-
     "text_3": "Otros",
-
     "front": {
       "skill_1": "Vue",
       "skill_2": "React Native",
@@ -132,18 +97,13 @@
       "skill_5": "Jira"
     }
   },
-
   "loading": {
     "title": "Loading…",
-
     "subtitle": "Estamos procesando tu requerimiento",
-
     "description": "Por favor, no cierres esta ventana."
   },
-
   "error": {
     "title": "Error",
-
     "description": "Parece que perdimos conexión con el servidor."
   }
 }
