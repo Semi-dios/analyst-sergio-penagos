@@ -112,7 +112,7 @@ export default defineComponent({
   },
   data() {
     return {
-      projects: 4,
+      projects: 5,
     };
   },
 });
